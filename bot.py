@@ -28,9 +28,9 @@ uvloop.install()
 class Bot(Client):
     def __init__(self):
         super().__init__(
-            name='Luttapiv1 ',
+            name='Luttapiv1',
             api_id=6200195257,
-            api_hash=API_HASH,
+            api_hash=2e068d02487d55f7d662efd7f6d5c209,
             bot_token=7734877955:AAG6ECD4tfcThtEwcxvYG5nh0r8Ei4lOHHQ,
             plugins={"root": "plugins"}
         )
